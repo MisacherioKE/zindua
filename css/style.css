@@ -5,6 +5,22 @@
     /* background-color: whitesmoke; */
     
 }
+.navBar{
+    display: flex;
+    justify-content: space-around;
+}
+.listItem{
+    display: inline;
+    
+}
+.btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: orange;
+    border-radius: 10px;
+}
 body,
 html{
     font-family: "Manrope", sans-serif;
