@@ -8,6 +8,13 @@
 .navBar{
     display: flex;
     justify-content: space-around;
+    cursor: pointer;
+    position: fixed;
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+    z-index: 1;
+    /* border: 1px solid; */
     /* align-items: center; */
 }
 .listItem{
@@ -42,7 +49,7 @@ html{
 .imgCircle{
     position: absolute;
     right: -5%;
-    top: 10%;
+    top: 15%;
     width: 50%;
     /* border: 1px solid; */
 }
@@ -50,7 +57,7 @@ html{
     /* border: 1px solid; */
     width: 50%;
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 8%;
 }
 .introText h1{
@@ -90,7 +97,7 @@ html{
 .pillTwo{
     height: 250px;
     position: absolute;
-    top: 25%;
+    top: 40%;
     right: 21%;
 }
 .pillThree{
@@ -101,7 +108,7 @@ html{
 }
 .divA{
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 8%;
 }
 .divA h1{
@@ -110,12 +117,12 @@ html{
     margin-bottom: 10px;
 }
 .join{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: rgb(32, 65, 251);
-    border-radius: 20px;
+    border-radius: 30px;
     color: white;
     font-weight: bold;
     margin-top: 20px;
