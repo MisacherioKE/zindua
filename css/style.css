@@ -31,7 +31,7 @@ body,
 html{
     font-family: "Manrope", sans-serif;
     color: #8480ae;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 .welcome{
@@ -74,4 +74,50 @@ html{
  text-decoration-color: tomato;
  color: tomato;
  font-weight: bold;
+}
+.pills{
+    height: 75vh;
+    background-color: rgb(240, 242, 244);
+    position: relative;
+    display: flex;
+}
+.pillOne{
+    height: 300px;
+    position: absolute;
+    top: 10%;
+    right: 35%;
+}
+.pillTwo{
+    height: 250px;
+    position: absolute;
+    top: 25%;
+    right: 21%;
+}
+.pillThree{
+    height: 300px;
+    position: absolute;
+    right: 5%;
+    top: 10%;
+}
+.divA{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+.divA h1{
+    font-size: 40px;
+    color: rgb(3, 3, 119);
+    margin-bottom: 10px;
+}
+.join{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(32, 65, 251);
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
 }
