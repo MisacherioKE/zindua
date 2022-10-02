@@ -58,7 +58,7 @@ html{
     width: 50%;
     position: absolute;
     top: 30%;
-    left: 8%;
+    left: 15%;
 }
 .introText h1{
     font-size: 60px;
@@ -98,18 +98,18 @@ html{
     height: 250px;
     position: absolute;
     top: 40%;
-    right: 21%;
+    right: 25%;
 }
 .pillThree{
     height: 300px;
     position: absolute;
-    right: 5%;
+    right: 12%;
     top: 10%;
 }
 .divA{
     position: absolute;
     top: 30%;
-    left: 8%;
+    left: 15%;
 }
 .divA h1{
     font-size: 40px;
@@ -131,7 +131,7 @@ html{
 .find{
     background-color: orange;
     width: 100%;
-    height: 75vh;
+    height: 85vh;
     display: flex;
     position: relative;
 }
@@ -146,7 +146,7 @@ html{
 .influencers{
     display: flex;
     position: absolute;
-    right: 5%;
+    right: 10%;
     top: 15%;
 }
 .socialite{
@@ -166,6 +166,33 @@ html{
     position: absolute;
     bottom: 10%;
     right: 20%;
+}
+.findtext{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+.find h1{
+    font-size: 40px;
+    color: rgb(3, 3, 119);
+    margin-bottom: 10px;
+}
+.find p{
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+.discover{
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 18px;
 }
 /* .photo{
     width: 100%;
